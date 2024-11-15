@@ -149,3 +149,4 @@ checkpoint/
 *.gz
 logs/
 *.bin
+*.npz

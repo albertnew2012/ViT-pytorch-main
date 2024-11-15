@@ -1,0 +1,28 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug Train.py",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/train.py",
+            "console": "internalConsole",
+            "args": [
+                "--name",
+                "cifar10-100_500",
+                "--dataset",
+                "cifar10",
+                "--model_type",
+                "ViT-B_16",
+                "--pretrained_dir",
+                "checkpoint/ViT-B_16.npz"
+
+            ],
+            "stopOnEntry": true,
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}"
+            }
+        }
+    ]
+}
+
